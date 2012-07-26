@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1F936715C0BFF9000BEBBD /* VV_PopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1F936615C0BFF9000BEBBD /* VV_PopoverWindow.m */; };
+		EA1F936F15C0C633000BEBBD /* VV_ArrowCreatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1F936E15C0C633000BEBBD /* VV_ArrowCreatorView.m */; };
+		EA1F937515C102B2000BEBBD /* VV_PopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1F937415C102B2000BEBBD /* VV_PopoverContentView.m */; };
+		EAB504EE15BF279700B97E9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB504ED15BF279700B97E9D /* Cocoa.framework */; };
+		EAB504F815BF279800B97E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB504F615BF279800B97E9D /* InfoPlist.strings */; };
+		EAB504FA15BF279800B97E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB504F915BF279800B97E9D /* main.m */; };
+		EAB504FE15BF279800B97E9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EAB504FC15BF279800B97E9D /* Credits.rtf */; };
+		EAB5050115BF279800B97E9D /* VV_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5050015BF279800B97E9D /* VV_AppDelegate.m */; };
+		EAB5050415BF279800B97E9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB5050215BF279800B97E9D /* MainMenu.xib */; };
+		EAB5050715BF279800B97E9D /* Friendly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAB5050515BF279800B97E9D /* Friendly.xcdatamodeld */; };
+		EAB5051115BF36B100B97E9D /* VV_StatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5051015BF36B100B97E9D /* VV_StatusBarController.m */; };
+		EAB5051515BF935B00B97E9D /* VV_PopoverWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5051315BF935B00B97E9D /* VV_PopoverWindowController.m */; };
+		EAB5051615BF935B00B97E9D /* DefaultPopoverWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB5051415BF935B00B97E9D /* DefaultPopoverWindow.xib */; };
+		EAB5051915BF94B100B97E9D /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5051815BF94B100B97E9D /* StatusItemView.m */; };
+		EAB5051D15BFA7F100B97E9D /* status-icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5051B15BFA7F100B97E9D /* status-icon-alt.png */; };
+		EAB5051E15BFA7F100B97E9D /* status-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5051C15BFA7F100B97E9D /* status-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1F936515C0BFF9000BEBBD /* VV_PopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VV_PopoverWindow.h; sourceTree = "<group>"; };
+		EA1F936615C0BFF9000BEBBD /* VV_PopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VV_PopoverWindow.m; sourceTree = "<group>"; };
+		EA1F936D15C0C633000BEBBD /* VV_ArrowCreatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VV_ArrowCreatorView.h; sourceTree = "<group>"; };
+		EA1F936E15C0C633000BEBBD /* VV_ArrowCreatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VV_ArrowCreatorView.m; sourceTree = "<group>"; };
+		EA1F937315C102B2000BEBBD /* VV_PopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VV_PopoverContentView.h; sourceTree = "<group>"; };
+		EA1F937415C102B2000BEBBD /* VV_PopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VV_PopoverContentView.m; sourceTree = "<group>"; };
+		EAB504E915BF279700B97E9D /* VV_Popover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VV_Popover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB504ED15BF279700B97E9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EAB504F015BF279700B97E9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EAB504F115BF279700B97E9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EAB504F215BF279700B97E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAB504F515BF279800B97E9D /* VV_Popover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VV_Popover-Info.plist"; sourceTree = "<group>"; };
+		EAB504F715BF279800B97E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB504F915BF279800B97E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB504FB15BF279800B97E9D /* VV_Popover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VV_Popover-Prefix.pch"; sourceTree = "<group>"; };
+		EAB504FD15BF279800B97E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EAB504FF15BF279800B97E9D /* VV_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VV_AppDelegate.h; sourceTree = "<group>"; };
+		EAB5050015BF279800B97E9D /* VV_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VV_AppDelegate.m; sourceTree = "<group>"; };
+		EAB5050315BF279800B97E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EAB5050615BF279800B97E9D /* Friendly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendly.xcdatamodel; sourceTree = "<group>"; };
+		EAB5050F15BF36B100B97E9D /* VV_StatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VV_StatusBarController.h; sourceTree = "<group>"; };
+		EAB5051015BF36B100B97E9D /* VV_StatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VV_StatusBarController.m; sourceTree = "<group>"; };
+		EAB5051215BF935B00B97E9D /* VV_PopoverWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VV_PopoverWindowController.h; sourceTree = "<group>"; };
+		EAB5051315BF935B00B97E9D /* VV_PopoverWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VV_PopoverWindowController.m; sourceTree = "<group>"; };
+		EAB5051415BF935B00B97E9D /* DefaultPopoverWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultPopoverWindow.xib; sourceTree = "<group>"; };
+		EAB5051715BF94B100B97E9D /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		EAB5051815BF94B100B97E9D /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		EAB5051B15BFA7F100B97E9D /* status-icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-icon-alt.png"; sourceTree = "<group>"; };
+		EAB5051C15BFA7F100B97E9D /* status-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-icon.png"; sourceTree = "<group>"; };
+		EAB5052015BFBB3900B97E9D /* VV_TopLevelProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VV_TopLevelProtocols.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB504E615BF279700B97E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB504EE15BF279700B97E9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1F936C15C0C5F6000BEBBD /* Popover Window Class */ = {
+			isa = PBXGroup;
+			children = (
+				EA1F936515C0BFF9000BEBBD /* VV_PopoverWindow.h */,
+				EA1F936615C0BFF9000BEBBD /* VV_PopoverWindow.m */,
+				EA1F936D15C0C633000BEBBD /* VV_ArrowCreatorView.h */,
+				EA1F936E15C0C633000BEBBD /* VV_ArrowCreatorView.m */,
+				EA1F937315C102B2000BEBBD /* VV_PopoverContentView.h */,
+				EA1F937415C102B2000BEBBD /* VV_PopoverContentView.m */,
+			);
+			name = "Popover Window Class";
+			sourceTree = "<group>";
+		};
+		EAB504DE15BF279700B97E9D = {
+			isa = PBXGroup;
+			children = (
+				EAB504F315BF279700B97E9D /* Friendly */,
+				EAB504EC15BF279700B97E9D /* Frameworks */,
+				EAB504EA15BF279700B97E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB504EA15BF279700B97E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB504E915BF279700B97E9D /* VV_Popover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB504EC15BF279700B97E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB504ED15BF279700B97E9D /* Cocoa.framework */,
+				EAB504EF15BF279700B97E9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB504EF15BF279700B97E9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB504F015BF279700B97E9D /* AppKit.framework */,
+				EAB504F115BF279700B97E9D /* CoreData.framework */,
+				EAB504F215BF279700B97E9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EAB504F315BF279700B97E9D /* Friendly */ = {
+			isa = PBXGroup;
+			children = (
+				EAB504FF15BF279800B97E9D /* VV_AppDelegate.h */,
+				EAB5050015BF279800B97E9D /* VV_AppDelegate.m */,
+				EAB5050F15BF36B100B97E9D /* VV_StatusBarController.h */,
+				EAB5051015BF36B100B97E9D /* VV_StatusBarController.m */,
+				EAB5051A15BF94BE00B97E9D /* Status Items */,
+				EAB5051215BF935B00B97E9D /* VV_PopoverWindowController.h */,
+				EAB5051315BF935B00B97E9D /* VV_PopoverWindowController.m */,
+				EAB5052015BFBB3900B97E9D /* VV_TopLevelProtocols.h */,
+				EA1F936C15C0C5F6000BEBBD /* Popover Window Class */,
+				EAB5050E15BF2A7200B97E9D /* User Interface */,
+				EAB5050D15BF2A6A00B97E9D /* Core Data */,
+				EAB5052115BFBB5300B97E9D /* Images and Resources */,
+				EAB504F415BF279800B97E9D /* Supporting Files */,
+			);
+			path = Friendly;
+			sourceTree = "<group>";
+		};
+		EAB504F415BF279800B97E9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB504F515BF279800B97E9D /* VV_Popover-Info.plist */,
+				EAB504F615BF279800B97E9D /* InfoPlist.strings */,
+				EAB504F915BF279800B97E9D /* main.m */,
+				EAB504FB15BF279800B97E9D /* VV_Popover-Prefix.pch */,
+				EAB504FC15BF279800B97E9D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB5050D15BF2A6A00B97E9D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5050515BF279800B97E9D /* Friendly.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		EAB5050E15BF2A7200B97E9D /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5050215BF279800B97E9D /* MainMenu.xib */,
+				EAB5051415BF935B00B97E9D /* DefaultPopoverWindow.xib */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		EAB5051A15BF94BE00B97E9D /* Status Items */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5051715BF94B100B97E9D /* StatusItemView.h */,
+				EAB5051815BF94B100B97E9D /* StatusItemView.m */,
+			);
+			name = "Status Items";
+			sourceTree = "<group>";
+		};
+		EAB5051F15BFA7F600B97E9D /* Status Bar */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5051B15BFA7F100B97E9D /* status-icon-alt.png */,
+				EAB5051C15BFA7F100B97E9D /* status-icon.png */,
+			);
+			name = "Status Bar";
+			sourceTree = "<group>";
+		};
+		EAB5052115BFBB5300B97E9D /* Images and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5051F15BFA7F600B97E9D /* Status Bar */,
+			);
+			name = "Images and Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB504E815BF279700B97E9D /* VV_Popover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB5050A15BF279800B97E9D /* Build configuration list for PBXNativeTarget "VV_Popover" */;
+			buildPhases = (
+				EAB504E515BF279700B97E9D /* Sources */,
+				EAB504E615BF279700B97E9D /* Frameworks */,
+				EAB504E715BF279700B97E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VV_Popover;
+			productName = Friendly;
+			productReference = EAB504E915BF279700B97E9D /* VV_Popover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB504E015BF279700B97E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VV_;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Vervious;
+			};
+			buildConfigurationList = EAB504E315BF279700B97E9D /* Build configuration list for PBXProject "VV_Popover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAB504DE15BF279700B97E9D;
+			productRefGroup = EAB504EA15BF279700B97E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB504E815BF279700B97E9D /* VV_Popover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB504E715BF279700B97E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB504F815BF279800B97E9D /* InfoPlist.strings in Resources */,
+				EAB504FE15BF279800B97E9D /* Credits.rtf in Resources */,
+				EAB5050415BF279800B97E9D /* MainMenu.xib in Resources */,
+				EAB5051615BF935B00B97E9D /* DefaultPopoverWindow.xib in Resources */,
+				EAB5051D15BFA7F100B97E9D /* status-icon-alt.png in Resources */,
+				EAB5051E15BFA7F100B97E9D /* status-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB504E515BF279700B97E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB504FA15BF279800B97E9D /* main.m in Sources */,
+				EAB5050115BF279800B97E9D /* VV_AppDelegate.m in Sources */,
+				EAB5050715BF279800B97E9D /* Friendly.xcdatamodeld in Sources */,
+				EAB5051115BF36B100B97E9D /* VV_StatusBarController.m in Sources */,
+				EAB5051515BF935B00B97E9D /* VV_PopoverWindowController.m in Sources */,
+				EAB5051915BF94B100B97E9D /* StatusItemView.m in Sources */,
+				EA1F936715C0BFF9000BEBBD /* VV_PopoverWindow.m in Sources */,
+				EA1F936F15C0C633000BEBBD /* VV_ArrowCreatorView.m in Sources */,
+				EA1F937515C102B2000BEBBD /* VV_PopoverContentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB504F615BF279800B97E9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB504F715BF279800B97E9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAB504FC15BF279800B97E9D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB504FD15BF279800B97E9D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EAB5050215BF279800B97E9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB5050315BF279800B97E9D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB5050815BF279800B97E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EAB5050915BF279800B97E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAB5050B15BF279800B97E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friendly/VV_Popover-Prefix.pch";
+				INFOPLIST_FILE = "Friendly/VV_Popover-Info.plist";
+				PRODUCT_NAME = VV_Popover;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAB5050C15BF279800B97E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Friendly/VV_Popover-Prefix.pch";
+				INFOPLIST_FILE = "Friendly/VV_Popover-Info.plist";
+				PRODUCT_NAME = VV_Popover;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB504E315BF279700B97E9D /* Build configuration list for PBXProject "VV_Popover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB5050815BF279800B97E9D /* Debug */,
+				EAB5050915BF279800B97E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB5050A15BF279800B97E9D /* Build configuration list for PBXNativeTarget "VV_Popover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB5050B15BF279800B97E9D /* Debug */,
+				EAB5050C15BF279800B97E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAB5050515BF279800B97E9D /* Friendly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAB5050615BF279800B97E9D /* Friendly.xcdatamodel */,
+			);
+			currentVersion = EAB5050615BF279800B97E9D /* Friendly.xcdatamodel */;
+			path = Friendly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAB504E015BF279700B97E9D /* Project object */;
+}
